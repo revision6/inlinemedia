@@ -163,7 +163,7 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['inlinemedia_quality'] = array(
     'exclude'                 => true,
     'filter'                  => true,
     'inputType'               => 'select',
-    'options'        					=> array('ld','sd','hq','hd720','hd1080'),
+    'options'        		  => array('ld','sd','hq','hd720','hd1080'),
     'reference'               => &$GLOBALS['TL_LANG']['CTE'],
     'eval'                    => array('tl_class'=>'w50'),
     'sql'                     => "varchar(55) NOT NULL default ''"
