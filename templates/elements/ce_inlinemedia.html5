@@ -4,7 +4,11 @@
 <?php if ($this->headline): ?>
     <<?php echo $this->hl; ?>><?php echo $this->headline; ?></<?php echo $this->hl; ?>>
 <?php endif; ?>
-
-<?php echo $this->media; ?>
+<div class="mediaelem">
+    <?php echo $this->media; ?>
+</div>
+<?php if($this->videocaption):?>
+    <p class="caption"><?php echo $this->videocaption; ?></p>
+<?php endif; ?>
 
 </div>
