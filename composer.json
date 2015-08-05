@@ -31,7 +31,7 @@
   "extra": {
     "contao": {
       "sources": {
-        "contao": "system/modules/inlinemedia"
+        "": "system/modules/inlinemedia"
       }
     }
   },
