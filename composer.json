@@ -1,0 +1,67 @@
+{
+  "name": "revision6/inlinemedia",
+  "description": "Contao Inline Media",
+  "keywords": [
+    "contao",
+    "Youtube",
+    "Vimeo",
+    "Dailymotion",
+    "Soundcloud"
+  ],
+  "type": "contao-module",
+  "homepage": "https://www.revision6.de",
+  "license": "LGPL-3.0+",
+  "authors": [
+    {
+      "name": "Rolf Schupfinger",
+      "email": "r.schupfinger@revision6.de",
+      "homepage": "https://www.revision6.de",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "shout@revision6.de",
+    "issues": "https://github.com/revision6/inlinemedia/issues",
+    "source": "https://github.com/revision6/inlinemedia"
+  },
+  "require": {
+    "php": ">=5.4",
+    "contao/core": ">3.2.5,<4.0"
+  },
+  "require-dev": {
+    "cyberspectrum/contao-toolbox": "~0.6",
+    "phpcq/all-tasks": "~1.0",
+    "metamodels/phpunit-contao-database": "1.0.*@dev"
+  },
+  "autoload": {
+    "psr-0": {
+      "PostManager": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-0": {
+      "PostManager\\Test": "tests"
+    }
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "contao": "system/modules/postmanager",
+        "contao/config/tinyMCEvmi.php": "system/config/tinyMCEvmi.php",
+        "contao/config/post.php": "contao/post.php"
+      }
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://legacy-packages-via.contao-community-alliance.org/"
+    },
+    {
+      "type": "composer",
+      "url": "composer-access:cYKunZNUQhyV7MUmuDfmJfDcQEnmdkVcBpwJdZcJkv7JunXvyd@vmi-composer.rev6.co/repo/private/"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
