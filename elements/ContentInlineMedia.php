@@ -24,7 +24,7 @@ use Contao\FrontendTemplate;
  * Class Contentinlinemedia
  *
  * Front end content element "inlinemedia".
- * @copyright  Rolf Schupfinger 2013
+ * @copyright  Rolf Schupfinger 2015
  * @author     Rolf Schupfinger <http://www.revision6.de>
  * @package    inlinemedia
  */
@@ -96,6 +96,5 @@ class Contentinlinemedia extends \ContentElement
 
 		$this->Template->media = $objMediaPlayerTemplate->parse();
 		$this->Template->videocaption = $this->inlinemedia_videocaption;
-
 	}
 }
