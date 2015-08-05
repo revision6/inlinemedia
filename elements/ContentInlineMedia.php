@@ -95,6 +95,7 @@ class Contentinlinemedia extends \ContentElement
 		$objMediaPlayerTemplate->setData($arrMediaPlatforms[$this->inlinemedia_source]);
 
 		$this->Template->media = $objMediaPlayerTemplate->parse();
+		$this->Template->videocaption = $this->inlinemedia_videocaption;
 
 	}
 }
