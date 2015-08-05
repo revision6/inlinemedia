@@ -51,7 +51,8 @@ class Contentinlinemedia extends \ContentElement
 				'autoplay' => $this->inlinemedia_autoplay,
 				'color' => $this->inlinemedia_color,
 				'loop' => $this->inlinemedia_loop,
-				'params' => $this->inlinemedia_params
+				'params' => $this->inlinemedia_params,
+				'videocaption' => $this->inlinemedia_videocaption
 			),
 			'ivyoutube' => array(
 				'template' => 'inlinemedia_youtube',
@@ -61,7 +62,8 @@ class Contentinlinemedia extends \ContentElement
 				'autoplay' => $this->inlinemedia_autoplay,
 				'suggest' => $this->inlinemedia_suggest,
 				'url' => $this->inlinemedia_privacy ? 'http://www.youtube-nocookie.com' : 'http://www.youtube.com',
-                'params' => $this->inlinemedia_params
+                'params' => $this->inlinemedia_params,
+                'videocaption' => $this->inlinemedia_videocaption
 			),
             'ivdailymotion' => array(
                 'template' => 'inlinemedia_dailymotion',
@@ -74,7 +76,8 @@ class Contentinlinemedia extends \ContentElement
                 'mediainfos' => $this->inlinemedia_mediainfos,
                 'logo' => $this->inlinemedia_logo,
                 'quality' => $this->inlinemedia_quality,
-                'params' => $this->inlinemedia_params
+                'params' => $this->inlinemedia_params,
+                'videocaption' => $this->inlinemedia_videocaption
             ),
             'ivsoundcloud' => array(
                 'template' => 'inlinemedia_soundcloud',
@@ -82,7 +85,8 @@ class Contentinlinemedia extends \ContentElement
                 'autoplay' => $this->inlinemedia_autoplay,
                 'color' => $this->inlinemedia_color,
                 'artwork' => $this->inlinemedia_artwork,
-                'params' => $this->inlinemedia_params
+                'params' => $this->inlinemedia_params,
+                'videocaption' => $this->inlinemedia_videocaption
             )
 		);
 

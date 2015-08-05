@@ -177,3 +177,12 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['inlinemedia_params'] = array(
     'eval'                    => array('tl_class'=>'clr long'),
     'sql'                     => "varchar(128) NOT NULL default ''"
 );
+
+$GLOBALS['TL_DCA']['tl_content']['fields']['inlinemedia_videocaption'] = array(
+    'label'                   => &$GLOBALS['TL_LANG']['tl_content']['inlinemedia_videocaption'],
+    'exclude'                 => true,
+    'filter'                  => true,
+    'inputType'               => 'text',
+    'eval'                    => array('tl_class'=>'clr long'),
+    'sql'                     => "varchar(128) NOT NULL default ''"
+);

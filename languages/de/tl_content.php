@@ -39,6 +39,7 @@ $GLOBALS['TL_LANG']['tl_content']['inlinemedia_artwork'] = array('Artwork anzeig
 $GLOBALS['TL_LANG']['tl_content']['inlinemedia_mediainfos'] = array('Infos anzeigen','Details zum Video einblenden');
 $GLOBALS['TL_LANG']['tl_content']['inlinemedia_quality'] = array('Bildqualität','Wählen sie zwischen HD und SD Qualität. Default: automatisch SD');
 $GLOBALS['TL_LANG']['tl_content']['inlinemedia_params'] = array('Weitere Parameter','Hier können Sie weitere Parameter definieren die der URL angehängt werden z.B: &meinParameter=wert');
+$GLOBALS['TL_LANG']['tl_content']['inlinemedia_videocaption'] = array('Caption für Medienelement','Dieser Inhalt wird unter dem Medienelement als "Bildunterschrift" dargestellt.');
 
 /**
  * References

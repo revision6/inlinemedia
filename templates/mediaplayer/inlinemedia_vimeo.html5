@@ -1,1 +1,2 @@
 <iframe src="http://player.vimeo.com/video/<?php echo $this->media; ?>?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=<?php echo $this->color; ?>&amp;autoplay=<?php echo $this->autoplay ? $this->autoplay : 0; ?>&amp;loop=<?php echo $this->loop ? $this->loop : 0; ?>&nocache=<?php echo time(); ?><?php echo urlencode($this->params); ?>" width="<?php echo $this->width; ?>" height="<?php echo $this->height; ?>" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<p class="caption"><?php echo $this->videocaption; ?></p>
