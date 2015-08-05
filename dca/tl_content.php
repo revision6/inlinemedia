@@ -184,5 +184,5 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['inlinemedia_videocaption'] = array(
     'filter'                  => true,
     'inputType'               => 'textarea',
     'eval'                    => array('tl_class'=>'clr long'),
-    'sql'                     => "text NOT NULL default ''"
+    'sql'                     => "text NOT NULL"
 );
