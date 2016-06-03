@@ -61,7 +61,7 @@ class Contentinlinemedia extends \ContentElement
 				'height' => deserialize($this->inlinemedia_height),
 				'autoplay' => $this->inlinemedia_autoplay,
 				'suggest' => $this->inlinemedia_suggest,
-				'url' => $this->inlinemedia_privacy ? 'http://www.youtube-nocookie.com' : 'http://www.youtube.com',
+				'url' => $this->inlinemedia_privacy ? '//www.youtube-nocookie.com' : '//www.youtube.com',
                 'params' => $this->inlinemedia_params,
                 'videocaption' => $this->inlinemedia_videocaption
 			),
